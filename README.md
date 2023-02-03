@@ -1,6 +1,4 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# ReactJS Advanced Diagnostic Examination (Healthnow)
 
 ## This is project is created using:
 1. ReactJS Hooks (UseEffect,UseState,UseCallback).
@@ -9,9 +7,9 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 4. Seperated Dumb and Smart Components
 5. Used CSS Flexbox for styling
 
-## Available Scripts
+## To Run the Project
 
 In the project directory, you can run:
 
-### `npm install`
+### `npm install` and then
 ### `npm start`
