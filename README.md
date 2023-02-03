@@ -7,7 +7,7 @@
 4. Seperated Dumb and Smart Components
 5. Used CSS Flexbox for styling
 
-## To Run the Project
+## Project Instructions
 
 In the project directory, you can run:
 
