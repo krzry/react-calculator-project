@@ -145,7 +145,6 @@ const Calculator = () => {
          }
       }
    };
-   console.log(data);
    const insertDigits = (keyVal) => {
       let values;
       if (data.waitingForOperand === false) {
@@ -153,7 +152,6 @@ const Calculator = () => {
             displayValue: keyVal,
             waitingForOperand: true,
          };
-         console.log("hi1");
       } else {
          if (data.operator === "=") {
             values = {
@@ -161,7 +159,6 @@ const Calculator = () => {
                operator: null,
                waitingForOperand: true,
             };
-            console.log("hi2");
          } else {
             values = {
                displayValue:
@@ -170,7 +167,6 @@ const Calculator = () => {
                      : data.displayValue + keyVal,
                waitingForOperand: true,
             };
-            console.log("hi3");
          }
       }
       setData({ ...data, ...values });
