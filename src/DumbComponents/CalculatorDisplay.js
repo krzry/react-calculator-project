@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { CalculatorContext } from "./CalculatorContext";
+import { CalculatorContext } from "../SmartComponents/CalculatorContext";
 
 const CalculatorDisplay = () => {
    const { data } = useContext(CalculatorContext);

@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import "./App.css";
-import Calculator from "./Components/Calculator";
-import { CalculatorContext } from "./Components/CalculatorContext";
+import Calculator from "./SmartComponents/Calculator";
+import { CalculatorContext } from "./SmartComponents/CalculatorContext";
 
 function App() {
    const [data, setData] = useState({
       value: null,
       displayValue: "0",
       operator: null,
-      waitingForOperand: false,
+      waitingForOperand: true,
    });
 
    const providerValues = {
