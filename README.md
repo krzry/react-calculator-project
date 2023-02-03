@@ -1,5 +1,8 @@
 # ReactJS Advanced Diagnostic Examination (Healthnow)
 
+#### Application pre-requisites:
+[Visual Studio Code](https://code.visualstudio.com/)
+
 ## This is project is created using:
 1. ReactJS Hooks (UseEffect,UseState,UseCallback).
 2. React Context
@@ -11,5 +14,7 @@
 
 In the project directory, you can run:
 
-### `npm install` and then
-### `npm start`
+```sh
+npm install
+npm start
+```
